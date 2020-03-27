@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://192.168.1.3:3333'
+  baseURL: 'https://pure-island-10102.herokuapp.com/'
 })
 
 export default api;

@@ -39,7 +39,7 @@ export default function Details() {
 
   function sendMail(){
     MailComponser.composeAsync({
-      subject: `Quem quer ajudar: ${incident.title}`,
+      subject: `Opa, tem alguém interessado em ajudar no: ${incident.title}`,
       recipients: [incident.email],
       body: message,
     })

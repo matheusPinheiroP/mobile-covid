@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://pure-island-10102.herokuapp.com'
+  baseURL: process.env.APP_URL
 })
 
 export default api;

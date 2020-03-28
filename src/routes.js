@@ -5,9 +5,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Cases from './pages/Cases';
 import Details from './pages/Details';
 
-import HandseAnimationOne from './pages/HandsAnimation';
-import HandsAnimationTwo from './pages/HandsAnimationTwo';
-
 const AppStack = createStackNavigator();
 
 export default function Routes() {
@@ -15,9 +12,6 @@ export default function Routes() {
     <NavigationContainer>
 
       <AppStack.Navigator screenOptions={{ headerShown: false }}>
-        <AppStack.Screen name="HandsAnimationOne" component={HandseAnimationOne} />
-        <AppStack.Screen name="HandsAnimationTwo" component={HandsAnimationTwo} />
-       
         <AppStack.Screen name="Cases" component={Cases}/>
         <AppStack.Screen name="Details" component={Details} />
       </AppStack.Navigator>

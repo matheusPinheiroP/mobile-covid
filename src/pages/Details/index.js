@@ -39,7 +39,7 @@ export default function Details() {
 
   function sendMail(){
     MailComponser.composeAsync({
-      subject: `Opa, tem alguém interessado em ajudar no: ${incident.title}`,
+      subject: `Oba, tem alguém interessado em ajudar no: ${incident.title}`,
       recipients: [incident.email],
       body: message,
     })
@@ -72,7 +72,7 @@ export default function Details() {
 
       <ContactBox>
         <Title>Salve o dia de alguém</Title>
-        <Subtitle>Ajude agora mesmo.</Subtitle>
+        <Subtitle>Ajude agora!</Subtitle>
 
         <TextDescription>Entre em contato</TextDescription>
 
